@@ -1,3 +1,37 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  .container {
+    @apply max-w-2xl w-full mx-6;
+  }
+
+  * {
+    @apply font-karla;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-dm;
+  }
+}
+
+@layer components {
+  .navLink {
+    @apply text-red-300;
+  }
+
+  .btn {
+  }
+
+  .btn--primary {
+  }
+
+  .btn--secondary {
+  }
+}

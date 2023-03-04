@@ -1,22 +1,31 @@
 import React from "react";
+import Logo from "../assets/images/logo.svg";
 
 const Header = () => {
   return (
-    <header>
-      <nav>
-        <img src="" alt="" />
-        <menu>
+    <header className="bg-white  flex justify-center">
+      <nav className=" container flex justify-between">
+        <img src={Logo} alt="" />
+        <menu className="flex">
           <li>
-            <a href="#">How we work</a>
+            <a href="#" className="navLink">
+              How we work
+            </a>
           </li>
           <li>
-            <a href="#">Blog</a>
+            <a href="#" className="navLink">
+              Blog
+            </a>
           </li>
           <li>
-            <a href="#">Account</a>
+            <a href="#" className="navLink">
+              Account
+            </a>
           </li>
           <li>
-            <a href="#">View plans</a>
+            <a href="#" className="navLink">
+              View plans
+            </a>
           </li>
         </menu>
       </nav>
