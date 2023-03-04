@@ -23,7 +23,11 @@
 
 @layer components {
   .navLink {
-    @apply text-darkGrayishViolet uppercase outline px-4 py-2 flex;
+    @apply text-darkGrayishViolet uppercase px-6 py-1 block font-bold tracking-wide;
+  }
+
+  .navLink.featured {
+    @apply outline text-veryDarkViolet;
   }
 
   .btn {

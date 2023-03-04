@@ -5,7 +5,9 @@ const Header = () => {
   return (
     <header className="bg-white  flex justify-center">
       <nav className="container flex justify-between my-6">
-        <img src={Logo} alt="" className="object-cover w-auto" />
+        <div>
+          <img src={Logo} alt="" className="object-cover w-auto" />
+        </div>
         <menu className="flex gap-2">
           <li>
             <a href="#" className="navLink">
@@ -23,7 +25,7 @@ const Header = () => {
             </a>
           </li>
           <li>
-            <a href="#" className="navLink">
+            <a href="#" className="navLink featured">
               View plans
             </a>
           </li>
