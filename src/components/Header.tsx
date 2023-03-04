@@ -4,9 +4,9 @@ import Logo from "../assets/images/logo.svg";
 const Header = () => {
   return (
     <header className="bg-white  flex justify-center">
-      <nav className=" container flex justify-between">
-        <img src={Logo} alt="" />
-        <menu className="flex">
+      <nav className="container flex justify-between my-6">
+        <img src={Logo} alt="" className="object-cover w-auto" />
+        <menu className="flex gap-2">
           <li>
             <a href="#" className="navLink">
               How we work
