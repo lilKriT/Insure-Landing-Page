@@ -31,9 +31,11 @@
   }
 
   .btn {
+    @apply uppercase tracking-wide border-2;
   }
 
   .btn--primary {
+    @apply text-white border-white;
   }
 
   .btn--secondary {
