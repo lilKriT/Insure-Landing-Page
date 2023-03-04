@@ -1,11 +1,12 @@
 import React from "react";
+import imageDesktop from "../assets/images/image-intro-desktop.jpg";
 
 const Hero = () => {
   return (
     <section className="flex justify-center bg-darkViolet text-veryLightGray py-4">
-      <div className="container">
+      <div className="container flex">
         {/* Left Column */}
-        <div>
+        <div className="w-1/2">
           <h1 className="text-4xl">Humanizing your insurance.</h1>
           <p>
             Get your life insurance coverage easier and faster. We blend our
@@ -17,8 +18,8 @@ const Hero = () => {
           </a>
         </div>
         {/* Right Column */}
-        <div>
-          <img src="" alt="" />
+        <div className="w-1/2">
+          <img src={imageDesktop} alt="" />
         </div>
       </div>
     </section>
