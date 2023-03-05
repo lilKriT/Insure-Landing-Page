@@ -11,7 +11,7 @@ import Logo from "../assets/images/logo.svg";
 const Footer = () => {
   return (
     <footer className="bg-footerDesktop bg-no-repeat bg-veryLightGray flex justify-center">
-      <div className="container">
+      <div className="container py-16">
         {/* Upper Row */}
         <div className="flex justify-between">
           <div>
@@ -42,6 +42,9 @@ const Footer = () => {
             </li>
           </menu>
         </div>
+
+        <hr className="border-darkGrayishViolet/50 my-8" />
+
         {/* Bottom Row */}
         <div className="flex justify-between">
           {/* First Column */}
