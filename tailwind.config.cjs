@@ -15,6 +15,8 @@ module.exports = {
         dm: ["DM Serif Display", "sans-serif"],
       },
       backgroundImage: {
+        ctaDesktop: "url(./assets/images/bg-pattern-how-we-work-desktop.svg)",
+        ctaMobile: "url(./assets/images/bg-pattern-how-we-work-mobile.svg)",
         footerDesktop: "url(./assets/images/bg-pattern-footer-desktop.svg)",
         footerMobile: "url(./assets/images/bg-pattern-footer-mobile.svg)",
       },
