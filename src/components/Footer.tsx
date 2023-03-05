@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className="bg-footerDesktop bg-no-repeat bg-veryLightGray">
       <div>
         {/* Upper Row */}
         <div>Logo icons</div>

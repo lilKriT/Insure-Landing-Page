@@ -14,6 +14,9 @@ module.exports = {
         karla: ["Karla", "sans-serif"],
         dm: ["DM Serif Display", "sans-serif"],
       },
+      backgroundImage: {
+        footerDesktop: "url(./assets/images/bg-pattern-footer-desktop.svg)",
+      },
     },
   },
   plugins: [],
