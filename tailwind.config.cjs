@@ -3,6 +3,10 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      screens: {
+        tablet: "576px",
+        desktop: "1024px",
+      },
       colors: {
         darkViolet: "hsl(256, 26%, 20%)",
         grayishBlue: "hsl(216, 30%, 68%)",

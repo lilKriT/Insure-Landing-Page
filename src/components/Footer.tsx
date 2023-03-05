@@ -46,7 +46,7 @@ const Footer = () => {
         <hr className="border-darkGrayishViolet/50 my-8" />
 
         {/* Bottom Row */}
-        <div className="flex justify-between">
+        <div className="flex flex-col desktop:flex-row justify-between">
           {/* First Column */}
           <div className="footerColumn">
             <h2 className="footerHeading">Our company</h2>
