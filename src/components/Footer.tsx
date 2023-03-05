@@ -1,11 +1,41 @@
 import React from "react";
+import {
+  FaFacebookSquare,
+  FaTwitter,
+  FaPinterest,
+  FaInstagram,
+} from "react-icons/fa";
 
 const Footer = () => {
   return (
     <footer className="bg-footerDesktop bg-no-repeat bg-veryLightGray flex justify-center">
       <div className="container">
         {/* Upper Row */}
-        <div>Logo icons</div>
+        <div className="flex justify-between">
+          <div>Logo icons</div>
+          <menu className="flex gap-3 text-darkGrayishViolet text-2xl">
+            <li>
+              <a href="#">
+                <FaFacebookSquare />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <FaTwitter />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <FaPinterest />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <FaInstagram />
+              </a>
+            </li>
+          </menu>
+        </div>
         {/* Bottom Row */}
         <div className="flex justify-between">
           {/* First Column */}
