@@ -46,6 +46,6 @@
   }
 
   .footerHeading {
-    @apply font-karla;
+    @apply text-darkGrayishViolet font-karla uppercase font-bold tracking-wide mb-4;
   }
 }
