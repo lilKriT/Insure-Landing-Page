@@ -44,4 +44,8 @@
   .footerColumn {
     @apply w-1/4;
   }
+
+  .footerHeading {
+    @apply font-karla;
+  }
 }

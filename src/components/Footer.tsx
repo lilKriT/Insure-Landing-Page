@@ -6,13 +6,19 @@ import {
   FaInstagram,
 } from "react-icons/fa";
 
+import Logo from "../assets/images/Logo.svg";
+
 const Footer = () => {
   return (
     <footer className="bg-footerDesktop bg-no-repeat bg-veryLightGray flex justify-center">
       <div className="container">
         {/* Upper Row */}
         <div className="flex justify-between">
-          <div>Logo icons</div>
+          <div>
+            <a href="#">
+              <img src={Logo} alt="" />
+            </a>
+          </div>
           <menu className="flex gap-3 text-darkGrayishViolet text-2xl">
             <li>
               <a href="#">
@@ -40,7 +46,7 @@ const Footer = () => {
         <div className="flex justify-between">
           {/* First Column */}
           <div className="footerColumn">
-            <h2>Our company</h2>
+            <h2 className="footerHeading">Our company</h2>
             <menu>
               <li>
                 <a href="#">How we work</a>
@@ -58,7 +64,7 @@ const Footer = () => {
           </div>
           {/* Second Column */}
           <div className="footerColumn">
-            <h2>Help me</h2>
+            <h2 className="footerHeading">Help me</h2>
             <menu>
               <li>
                 <a href="#">FAQ</a>
@@ -76,7 +82,7 @@ const Footer = () => {
           </div>
           {/* Third Column */}
           <div className="footerColumn">
-            <h2>Contact</h2>
+            <h2 className="footerHeading">Contact</h2>
             <menu>
               <li>
                 <a href="#">Sales</a>
@@ -91,7 +97,7 @@ const Footer = () => {
           </div>
           {/* Fourth Column */}
           <div className="footerColumn">
-            <h2>Others</h2>
+            <h2 className="footerHeading">Others</h2>
             <menu>
               <li>
                 <a href="#">Careers</a>
