@@ -40,4 +40,8 @@
 
   .btn--secondary {
   }
+
+  .footerColumn {
+    @apply w-1/4;
+  }
 }

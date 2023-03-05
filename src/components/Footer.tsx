@@ -2,14 +2,14 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-footerDesktop bg-no-repeat bg-veryLightGray">
-      <div>
+    <footer className="bg-footerDesktop bg-no-repeat bg-veryLightGray flex justify-center">
+      <div className="container">
         {/* Upper Row */}
         <div>Logo icons</div>
         {/* Bottom Row */}
-        <div>
+        <div className="flex justify-between">
           {/* First Column */}
-          <div>
+          <div className="footerColumn">
             <h2>Our company</h2>
             <menu>
               <li>
@@ -27,7 +27,7 @@ const Footer = () => {
             </menu>
           </div>
           {/* Second Column */}
-          <div>
+          <div className="footerColumn">
             <h2>Help me</h2>
             <menu>
               <li>
@@ -45,7 +45,7 @@ const Footer = () => {
             </menu>
           </div>
           {/* Third Column */}
-          <div>
+          <div className="footerColumn">
             <h2>Contact</h2>
             <menu>
               <li>
@@ -60,7 +60,7 @@ const Footer = () => {
             </menu>
           </div>
           {/* Fourth Column */}
-          <div>
+          <div className="footerColumn">
             <h2>Others</h2>
             <menu>
               <li>

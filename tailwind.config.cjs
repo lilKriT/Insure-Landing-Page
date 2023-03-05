@@ -16,6 +16,7 @@ module.exports = {
       },
       backgroundImage: {
         footerDesktop: "url(./assets/images/bg-pattern-footer-desktop.svg)",
+        footerMobile: "url(./assets/images/bg-pattern-footer-mobile.svg)",
       },
     },
   },
