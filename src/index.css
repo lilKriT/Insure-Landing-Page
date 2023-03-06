@@ -41,6 +41,18 @@
   .btn--secondary {
   }
 
+  .featureCard {
+    @apply flex flex-col gap-4;
+  }
+
+  .featureCard > img {
+    @apply w-16;
+  }
+
+  .featureCard > h3 {
+    @apply text-2xl;
+  }
+
   .footerColumn {
     @apply w-1/4;
   }

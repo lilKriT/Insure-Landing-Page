@@ -6,12 +6,12 @@ import People from "../assets/images/icon-people-first.svg";
 
 const Features = () => {
   return (
-    <section className="flex justify-center">
+    <section className="flex justify-center mb-40">
       <div className="container">
         <hr />
-        <h2 className="text-7xl">We’re different</h2>
-        <div className="flex">
-          <article>
+        <h2 className="text-7xl mb-16">We’re different</h2>
+        <div className="flex gap-4">
+          <article className="featureCard">
             <img src={Snappy} alt="" />
             <h3>Snappy Process</h3>
             <p>
@@ -19,7 +19,7 @@ const Features = () => {
               Don’t get stuck filling in tedious forms.
             </p>
           </article>
-          <article>
+          <article className="featureCard">
             <img src={Affordable} alt="" />
             <h3>Affordable Prices</h3>
             <p>
@@ -27,7 +27,7 @@ const Features = () => {
               may be low, but we still offer the best coverage possible.
             </p>
           </article>
-          <article>
+          <article className="featureCard">
             <img src={People} alt="" />
             <h3>People First</h3>
             <p>
