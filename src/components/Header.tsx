@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header className="bg-white  flex justify-center">
       <nav className="container flex justify-between my-6">
-        <div>
+        <div className="flex justify-center items-center">
           <img src={Logo} alt="" className="object-cover w-auto" />
         </div>
         <menu className="flex gap-2">

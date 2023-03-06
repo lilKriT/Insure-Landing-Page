@@ -6,8 +6,11 @@ const Hero = () => {
     <section className="flex justify-center bg-darkViolet text-veryLightGray py-4">
       <div className="container flex">
         {/* Left Column */}
-        <div className="w-1/2">
-          <h1 className="text-4xl">Humanizing your insurance.</h1>
+        <div className="w-1/2 flex flex-col justify-center items-start gap-8">
+          <h1 className="text-7xl">
+            Humanizing <br />
+            your insurance.
+          </h1>
           <p>
             Get your life insurance coverage easier and faster. We blend our
             expertise and technology to help you find the plan that’s right for
