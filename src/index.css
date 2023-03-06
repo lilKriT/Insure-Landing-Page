@@ -23,11 +23,11 @@
 
 @layer components {
   .navLink {
-    @apply text-darkGrayishViolet uppercase px-6 py-1 block font-bold tracking-wide;
+    @apply text-darkGrayishViolet uppercase px-6 py-1 block font-bold tracking-wide duration-300 ease-out hover:text-veryDarkViolet;
   }
 
   .navLink.featured {
-    @apply outline text-veryDarkViolet;
+    @apply border-2 border-veryDarkViolet text-veryDarkViolet hover:text-veryLightGray hover:bg-veryDarkViolet;
   }
 
   .btn {
