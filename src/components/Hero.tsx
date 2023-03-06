@@ -3,10 +3,11 @@ import imageDesktop from "../assets/images/image-intro-desktop.jpg";
 
 const Hero = () => {
   return (
-    <section className="flex justify-center bg-darkViolet text-veryLightGray py-4">
-      <div className="container flex">
+    <section className="flex justify-center bg-darkViolet text-veryLightGray ">
+      <div className="container flex ">
         {/* Left Column */}
-        <div className="w-1/2 flex flex-col justify-center items-start gap-8">
+        <div className="w-1/2 flex flex-col justify-center items-start gap-8 pr-4">
+          <div className="border border-veryLightGray w-28" />
           <h1 className="text-7xl">
             Humanizing <br />
             your insurance.
@@ -22,7 +23,7 @@ const Hero = () => {
         </div>
         {/* Right Column */}
         <div className="w-1/2">
-          <img src={imageDesktop} alt="" />
+          <img src={imageDesktop} alt="" className="" />
         </div>
       </div>
     </section>

@@ -31,7 +31,7 @@
   }
 
   .btn {
-    @apply uppercase tracking-wide border-2;
+    @apply uppercase tracking-wide border-2 px-8 py-2 tracking-wide;
   }
 
   .btn--primary {
