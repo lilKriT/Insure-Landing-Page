@@ -50,66 +50,94 @@ const Footer = () => {
           {/* First Column */}
           <div className="footerColumn">
             <h2 className="footerHeading">Our company</h2>
-            <menu>
+            <menu className="flex flex-col gap-1 items-start">
               <li>
-                <a href="#">How we work</a>
+                <a href="#" className="footerLink">
+                  How we work
+                </a>
               </li>
               <li>
-                <a href="#">Why Insure?</a>
+                <a href="#" className="footerLink">
+                  Why Insure?
+                </a>
               </li>
               <li>
-                <a href="#">View plans</a>
+                <a href="#" className="footerLink">
+                  View plans
+                </a>
               </li>
               <li>
-                <a href="#">Reviews</a>
+                <a href="#" className="footerLink">
+                  Reviews
+                </a>
               </li>
             </menu>
           </div>
           {/* Second Column */}
           <div className="footerColumn">
             <h2 className="footerHeading">Help me</h2>
-            <menu>
+            <menu className="flex flex-col gap-1 items-start">
               <li>
-                <a href="#">FAQ</a>
+                <a href="#" className="footerLink">
+                  FAQ
+                </a>
               </li>
               <li>
-                <a href="#">Terms of use</a>
+                <a href="#" className="footerLink">
+                  Terms of use
+                </a>
               </li>
               <li>
-                <a href="#">Privacy policy</a>
+                <a href="#" className="footerLink">
+                  Privacy policy
+                </a>
               </li>
               <li>
-                <a href="#">Cookies</a>
+                <a href="#" className="footerLink">
+                  Cookies
+                </a>
               </li>
             </menu>
           </div>
           {/* Third Column */}
           <div className="footerColumn">
             <h2 className="footerHeading">Contact</h2>
-            <menu>
+            <menu className="flex flex-col gap-1 items-start">
               <li>
-                <a href="#">Sales</a>
+                <a href="#" className="footerLink">
+                  Sales
+                </a>
               </li>
               <li>
-                <a href="#">Support</a>
+                <a href="#" className="footerLink">
+                  Support
+                </a>
               </li>
               <li>
-                <a href="#">Live chat</a>
+                <a href="#" className="footerLink">
+                  Live chat
+                </a>
               </li>
             </menu>
           </div>
           {/* Fourth Column */}
           <div className="footerColumn">
             <h2 className="footerHeading">Others</h2>
-            <menu>
+            <menu className="flex flex-col gap-1 items-start">
               <li>
-                <a href="#">Careers</a>
+                <a href="#" className="footerLink">
+                  Careers
+                </a>
               </li>
               <li>
-                <a href="#">Press</a>
+                <a href="#" className="footerLink">
+                  Press
+                </a>
               </li>
               <li>
-                <a href="#">Licenses</a>
+                <a href="#" className="footerLink">
+                  Licenses
+                </a>
               </li>
             </menu>
           </div>
