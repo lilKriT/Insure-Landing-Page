@@ -3,10 +3,6 @@
 @tailwind utilities;
 
 @layer base {
-  .container {
-    @apply max-w-6xl w-full mx-6;
-  }
-
   * {
     @apply font-karla;
   }
@@ -22,6 +18,10 @@
 }
 
 @layer components {
+  .container {
+    @apply max-w-6xl w-full  mx-6;
+  }
+
   .logo {
     @apply object-cover w-auto hover:scale-105 duration-150 ease-in-out;
   }

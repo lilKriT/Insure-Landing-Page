@@ -26,6 +26,8 @@ const Hero = () => {
           <img src={imageDesktop} alt="" className="absolute w-full" />
         </div>
       </div>
+      {/* The background images */}
+      <div className="absolute w-full pointer-events-none bg-red-500 h-full"></div>
     </section>
   );
 };
