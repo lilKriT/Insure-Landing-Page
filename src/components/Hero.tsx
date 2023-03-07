@@ -3,7 +3,7 @@ import imageDesktop from "../assets/images/image-intro-desktop.jpg";
 
 const Hero = () => {
   return (
-    <section className="flex justify-center bg-darkViolet text-veryLightGray mb-36">
+    <section className="flex justify-center bg-darkViolet text-veryLightGray relative">
       <div className="container flex py-28 ">
         {/* Left Column */}
         <div className="w-1/2 flex flex-col justify-center items-start gap-8 pr-4">
@@ -22,12 +22,12 @@ const Hero = () => {
           </a>
         </div>
         {/* Right Column */}
-        <div className="w-1/2 outline relative">
+        <div className="w-1/2  relative">
           <img src={imageDesktop} alt="" className="absolute w-full" />
         </div>
       </div>
       {/* The background images */}
-      <div className="absolute w-full pointer-events-none bg-red-500 h-full"></div>
+      <div className="absolute w-full pointer-events-none  outline-red-500 h-[150%] patternOverlay"></div>
     </section>
   );
 };

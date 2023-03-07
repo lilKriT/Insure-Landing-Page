@@ -74,3 +74,14 @@
     @apply after:content-[""] after:bg-veryDarkViolet after:w-0 hover:after:w-full after:h-[1px] after:block after:absolute after:duration-150 after:ease-in-out after:bottom-0;
   }
 }
+
+@layer utilities {
+  .patternOverlay {
+    overflow: visible;
+    background-image: url(./assets/images/bg-pattern-intro-left-desktop.svg),
+      url(./assets/images/bg-pattern-intro-right-desktop.svg);
+    background-position: bottom left, top right;
+    background-repeat: no-repeat;
+    background-size: 12vw, 25vw;
+  }
+}
