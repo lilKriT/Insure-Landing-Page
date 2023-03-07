@@ -7,11 +7,7 @@ const Header = () => {
       <nav className="container flex justify-between my-6">
         <div className="flex justify-center items-center">
           <a href="#">
-            <img
-              src={Logo}
-              alt=""
-              className="object-cover w-auto hover:scale-105"
-            />
+            <img src={Logo} alt="" className="logo" />
           </a>
         </div>
         <menu className="flex gap-2">

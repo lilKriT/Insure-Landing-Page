@@ -16,7 +16,7 @@ const Footer = () => {
         <div className="flex justify-between">
           <div>
             <a href="#">
-              <img src={Logo} alt="" />
+              <img src={Logo} alt="" className="logo" />
             </a>
           </div>
           <menu className="flex gap-3 text-darkGrayishViolet text-2xl">
