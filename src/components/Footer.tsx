@@ -19,24 +19,24 @@ const Footer = () => {
               <img src={Logo} alt="" className="logo" />
             </a>
           </div>
-          <menu className="flex gap-3 text-darkGrayishViolet text-2xl">
+          <menu className="flex gap-3">
             <li>
-              <a href="#">
+              <a href="#" className="socialIcon">
                 <FaFacebookSquare />
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="#" className="socialIcon">
                 <FaTwitter />
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="#" className="socialIcon">
                 <FaPinterest />
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="#" className="socialIcon">
                 <FaInstagram />
               </a>
             </li>

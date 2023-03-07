@@ -57,6 +57,10 @@
     @apply text-2xl;
   }
 
+  .socialIcon {
+    @apply text-darkGrayishViolet text-2xl hover:text-veryDarkViolet duration-300 ease-in-out;
+  }
+
   .footerColumn {
     @apply w-1/4;
   }
