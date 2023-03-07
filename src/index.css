@@ -35,11 +35,11 @@
   }
 
   .btn {
-    @apply uppercase tracking-wide border-2 px-8 py-2 tracking-wide;
+    @apply uppercase border-2 px-8 py-2 tracking-wide duration-300 ease-in-out;
   }
 
   .btn--primary {
-    @apply text-white border-white;
+    @apply text-veryLightGray font-bold border-veryLightGray hover:bg-veryLightGray hover:text-veryDarkViolet;
   }
 
   .btn--secondary {
