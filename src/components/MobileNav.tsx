@@ -18,7 +18,7 @@ const MobileNav = ({ mobileNavVisible, setMobileNavVisible }: IMobileNav) => {
   return (
     <>
       {mobileNavVisible === true && (
-        <nav className="absolute inset-0 top-[80px] z-10 bg-veryDarkViolet text-veryLightGray uppercase text-center text-2xl px-4 bg-mobileNavPattern bg-no-repeat bg-bottom bg-[length:100vw] desktop:hidden">
+        <nav className="absolute top-[80px] left-0 right-0 bottom-0 z-10 bg-veryDarkViolet text-veryLightGray uppercase text-center text-2xl px-4 bg-mobileNavPattern bg-no-repeat bg-bottom bg-[length:100vw] desktop:hidden scale-y-0">
           <menu className="flex flex-col gap-4 pt-12">
             <li>
               <a href="#" className="block px-2 py-2 w-full">
