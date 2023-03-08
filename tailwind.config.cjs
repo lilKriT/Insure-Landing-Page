@@ -21,6 +21,7 @@ module.exports = {
       backgroundImage: {
         ctaDesktop: "url(./assets/images/bg-pattern-how-we-work-desktop.svg)",
         ctaMobile: "url(./assets/images/bg-pattern-how-we-work-mobile.svg)",
+        mobileNavPattern: "url(./assets/images/bg-pattern-mobile-nav.svg)",
         footerDesktop: "url(./assets/images/bg-pattern-footer-desktop.svg)",
         footerMobile: "url(./assets/images/bg-pattern-footer-mobile.svg)",
       },
