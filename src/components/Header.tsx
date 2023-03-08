@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import Logo from "../assets/images/logo.svg";
 import Hamburger from "../assets/images/icon-hamburger.svg";
 
 const Header = () => {
+  const [mobileNavVisible, setMobileNavVisible] = useState(false);
+
   return (
     <header className="bg-white  flex justify-center">
       <nav className="container flex justify-between my-6">
@@ -36,7 +38,10 @@ const Header = () => {
         </menu>
 
         {/* Mobile Menu */}
-        <button className="">
+        <button
+          className="flex desktop:hidden"
+          onClick={() => setMobileNavVisible(!mobileNavVisible)}
+        >
           <img src={Hamburger} alt="" />
         </button>
       </nav>
