@@ -23,9 +23,10 @@ const MobileNav = ({ mobileNavVisible, setMobileNavVisible }: IMobileNav) => {
     <>
       <nav
         ref={collapsingMenu}
-        className={`absolute top-[80px] h-[calc(100vh-80px)] left-0 right-0  z-10 bg-veryDarkViolet text-veryLightGray uppercase text-center text-2xl px-4 bg-mobileNavPattern bg-no-repeat bg-bottom bg-[length:100vw] desktop:hidden overflow-hidden
+        className={`absolute top-[80px] h-[calc(100vh-80px)] left-0 right-0  z-10 bg-veryDarkViolet text-veryLightGray uppercase text-center text-2xl px-4 bg-mobileNavPattern bg-no-repeat bg-bottom bg-[length:100vw] desktop:hidden overflow-hidden origin-top
         ${
-          mobileNavVisible ? " max-h-[calc(100vh-80px)]" : " max-h-0"
+          //   mobileNavVisible ? " max-h-[calc(100vh-80px)]" : " max-h-0"
+          mobileNavVisible ? " scale-y-100" : " scale-y-0"
         } duration-300 ease-in-out`}
       >
         <menu className="flex flex-col gap-4 pt-12">

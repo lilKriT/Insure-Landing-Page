@@ -1,5 +1,6 @@
 import Logo from "../assets/images/logo.svg";
 import Hamburger from "../assets/images/icon-hamburger.svg";
+import Close from "../assets/images/icon-close.svg";
 
 interface IHeader {
   mobileNavVisible: boolean;
@@ -44,7 +45,7 @@ const Header = ({ mobileNavVisible, setMobileNavVisible }: IHeader) => {
           className="flex desktop:hidden"
           onClick={() => setMobileNavVisible(!mobileNavVisible)}
         >
-          <img src={Hamburger} alt="" />
+          <img src={mobileNavVisible ? Close : Hamburger} alt="" />
         </button>
       </nav>
     </header>
