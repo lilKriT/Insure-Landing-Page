@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../assets/images/logo.svg";
+import Hamburger from "../assets/images/icon-hamburger.svg";
 
 const Header = () => {
   return (
@@ -10,7 +11,8 @@ const Header = () => {
             <img src={Logo} alt="" className="logo" />
           </a>
         </div>
-        <menu className="flex gap-2">
+        {/* Desktop menu */}
+        <menu className="hidden desktop:flex gap-2">
           <li>
             <a href="#" className="navLink">
               How we work
@@ -32,6 +34,11 @@ const Header = () => {
             </a>
           </li>
         </menu>
+
+        {/* Mobile Menu */}
+        <button className="">
+          <img src={Hamburger} alt="" />
+        </button>
       </nav>
     </header>
   );
