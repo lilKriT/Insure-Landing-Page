@@ -9,7 +9,7 @@ const MobileNav = ({ mobileNavVisible, setMobileNavVisible }: IMobileNav) => {
   return (
     <>
       {mobileNavVisible === true && (
-        <nav>
+        <nav className="absolute inset-0 top-[80px] z-10 bg-red-400">
           <menu className="">
             <li>
               <a href="#" className="navLink">
