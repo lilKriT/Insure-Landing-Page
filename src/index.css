@@ -19,7 +19,7 @@
 
 @layer components {
   .container {
-    @apply max-w-6xl w-full  mx-6;
+    @apply max-w-6xl w-full desktop:mx-6;
   }
 
   .logo {
