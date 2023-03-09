@@ -6,9 +6,9 @@ const Hero = () => {
     <section className="flex justify-center bg-darkViolet text-veryLightGray relative">
       <div className="container flex flex-col-reverse desktop:flex-row desktop:py-28 ">
         {/* Left Column */}
-        <div className="w-1/2 flex flex-col justify-center items-start gap-8 pr-4">
-          <div className="border border-veryLightGray w-28" />
-          <h1 className="text-7xl">
+        <div className="w-full desktop:w-1/2 flex flex-col justify-center items-center desktop:items-start text-center desktop:text-left gap-8 pr-4 mobileMargin">
+          <div className="hidden desktop:block border border-veryLightGray w-28" />
+          <h1 className="text-5xl desktop:text-7xl">
             Humanizing <br />
             your insurance.
           </h1>

@@ -76,6 +76,10 @@
 }
 
 @layer utilities {
+  .mobileMargin {
+    @apply mx-6 desktop:mx-0;
+  }
+
   .patternOverlay {
     overflow: visible;
     background-image: url(./assets/images/bg-pattern-intro-left-desktop.svg),
