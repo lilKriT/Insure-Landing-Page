@@ -19,7 +19,7 @@
 
 @layer components {
   .container {
-    @apply max-w-6xl w-full desktop:mx-6;
+    @apply max-w-6xl w-full;
   }
 
   .logo {
@@ -76,9 +76,9 @@
 }
 
 @layer utilities {
-  .mobileMargin {
-    @apply mx-6 desktop:mx-0;
-  }
+  /* * {
+    @apply outline;
+  } */
 
   .patternOverlay {
     overflow: visible;
