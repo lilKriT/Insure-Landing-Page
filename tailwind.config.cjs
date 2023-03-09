@@ -25,6 +25,9 @@ module.exports = {
         footerDesktop: "url(./assets/images/bg-pattern-footer-desktop.svg)",
         footerMobile: "url(./assets/images/bg-pattern-footer-mobile.svg)",
       },
+      boxShadow: {
+        header: "0 5px 5px 0 rgb(0 0 0 / .3)",
+      },
     },
   },
   plugins: [],

@@ -9,7 +9,7 @@ interface IHeader {
 
 const Header = ({ mobileNavVisible, setMobileNavVisible }: IHeader) => {
   return (
-    <header className="bg-white  flex justify-center">
+    <header className="bg-white flex justify-center sticky top-0 z-10 shadow-header">
       <nav className="container flex justify-between my-6">
         <div className="flex justify-center items-center">
           <a href="#">
