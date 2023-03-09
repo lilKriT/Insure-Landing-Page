@@ -7,10 +7,12 @@ import People from "../assets/images/icon-people-first.svg";
 const Features = () => {
   return (
     <section className="flex justify-center mt-[clamp(4rem,30%,20rem)] mb-40">
-      <div className="container">
+      <div className="container mx-6">
         <div className="border bg-darkGrayishViolet w-28 mb-24 h-[1px]" />
-        <h2 className="text-7xl mb-16">We’re different</h2>
-        <div className="flex gap-4">
+        <h2 className="text-7xl mb-16 text-center desktop:text-left">
+          We’re different
+        </h2>
+        <div className="flex flex-col desktop:flex-row gap-4">
           <article className="featureCard">
             <img src={Snappy} alt="" />
             <h3>Snappy Process</h3>

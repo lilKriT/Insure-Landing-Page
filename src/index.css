@@ -46,7 +46,7 @@
   }
 
   .featureCard {
-    @apply flex flex-col gap-4;
+    @apply flex flex-col gap-4 items-center desktop:items-start text-center desktop:text-left;
   }
 
   .featureCard > img {
