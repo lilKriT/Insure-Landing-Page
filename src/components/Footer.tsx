@@ -10,7 +10,7 @@ import Logo from "../assets/images/logo.svg";
 
 const Footer = () => {
   return (
-    <footer className="bg-footerDesktop bg-no-repeat bg-veryLightGray flex justify-center">
+    <footer className="bg-footerMobile bg-[size:100vw] desktop:bg-[size:auto] desktop:bg-footerDesktop bg-no-repeat bg-veryLightGray flex justify-center">
       <div className="container py-16 mx-6">
         {/* Upper Row */}
         <div className="flex flex-col desktop:flex-row items-center gap-8 justify-between">
