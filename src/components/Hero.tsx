@@ -1,5 +1,6 @@
 import React from "react";
 import imageDesktop from "../assets/images/image-intro-desktop.jpg";
+import imageMobile from "../assets/images/image-intro-mobile.jpg";
 
 const Hero = () => {
   return (
@@ -23,15 +24,22 @@ const Hero = () => {
         </div>
         {/* Right Column */}
         <div className="w-full desktop:w-1/2 relative">
-          <img
-            src={imageDesktop}
-            alt=""
-            className="relative desktop:absolute w-full"
-          />
+          <picture>
+            <source
+              srcSet={imageDesktop}
+              media="(min-width: 1024px)"
+              className="relative desktop:absolute w-full"
+            />
+            <img
+              src={imageMobile}
+              alt="Happy Insured Family"
+              className="relative desktop:absolute w-full"
+            />
+          </picture>
         </div>
       </div>
       {/* The background images */}
-      <div className="absolute w-full pointer-events-none  outline-red-500 h-[150%] patternOverlay"></div>
+      <div className="absolute w-full pointer-events-none outline-red-500 h-[150%] patternOverlay hidden desktop:block"></div>
     </section>
   );
 };
