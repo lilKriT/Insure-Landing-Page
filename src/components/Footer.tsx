@@ -11,9 +11,9 @@ import Logo from "../assets/images/logo.svg";
 const Footer = () => {
   return (
     <footer className="bg-footerDesktop bg-no-repeat bg-veryLightGray flex justify-center">
-      <div className="container py-16">
+      <div className="container py-16 mx-6">
         {/* Upper Row */}
-        <div className="flex justify-between">
+        <div className="flex flex-col desktop:flex-row items-center gap-8 justify-between">
           <div>
             <a href="#">
               <img src={Logo} alt="" className="logo" />
@@ -50,7 +50,7 @@ const Footer = () => {
           {/* First Column */}
           <div className="footerColumn">
             <h2 className="footerHeading">Our company</h2>
-            <menu className="flex flex-col gap-1 items-start">
+            <menu className="flex flex-col gap-1 items-center desktop:items-start">
               <li>
                 <a href="#" className="footerLink">
                   How we work
@@ -76,7 +76,7 @@ const Footer = () => {
           {/* Second Column */}
           <div className="footerColumn">
             <h2 className="footerHeading">Help me</h2>
-            <menu className="flex flex-col gap-1 items-start">
+            <menu className="flex flex-col gap-1 items-center desktop:items-start">
               <li>
                 <a href="#" className="footerLink">
                   FAQ
@@ -102,7 +102,7 @@ const Footer = () => {
           {/* Third Column */}
           <div className="footerColumn">
             <h2 className="footerHeading">Contact</h2>
-            <menu className="flex flex-col gap-1 items-start">
+            <menu className="flex flex-col gap-1 items-center desktop:items-start">
               <li>
                 <a href="#" className="footerLink">
                   Sales
@@ -123,7 +123,7 @@ const Footer = () => {
           {/* Fourth Column */}
           <div className="footerColumn">
             <h2 className="footerHeading">Others</h2>
-            <menu className="flex flex-col gap-1 items-start">
+            <menu className="flex flex-col gap-1 items-center desktop:items-start">
               <li>
                 <a href="#" className="footerLink">
                   Careers

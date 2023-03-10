@@ -62,11 +62,11 @@
   }
 
   .footerColumn {
-    @apply w-1/4;
+    @apply w-full desktop:w-1/4;
   }
 
   .footerHeading {
-    @apply text-darkGrayishViolet font-karla uppercase font-bold tracking-wide mb-4;
+    @apply text-darkGrayishViolet font-karla uppercase font-bold tracking-wide mb-4 text-center desktop:text-left;
   }
 
   .footerLink {
