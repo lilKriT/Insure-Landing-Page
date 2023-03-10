@@ -12,7 +12,7 @@ const Features = () => {
         <h2 className="text-7xl mb-16 text-center desktop:text-left">
           We’re different
         </h2>
-        <div className="flex flex-col desktop:flex-row gap-4">
+        <div className="flex flex-col desktop:flex-row gap-12 desktop:gap-4">
           <article className="featureCard">
             <img src={Snappy} alt="" />
             <h3>Snappy Process</h3>
